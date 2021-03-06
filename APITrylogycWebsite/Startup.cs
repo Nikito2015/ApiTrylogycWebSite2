@@ -40,7 +40,7 @@ namespace APITrylogycWebsite
             }
             app.UseSwagger();
             app.UseSwaggerUI(c =>
-                    c.SwaggerEndpoint(url: "/swagger/v1/swagger.json", name: "API Trylogyc Website"));
+                    c.SwaggerEndpoint(url: "../swagger/v1/swagger.json", name: "API Trylogyc Website"));
             app.UseHttpsRedirection();
 
             app.UseRouting();
